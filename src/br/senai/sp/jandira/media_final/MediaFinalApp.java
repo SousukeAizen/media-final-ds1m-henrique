@@ -134,7 +134,7 @@ public class MediaFinalApp extends Application {
             mediaFinal = mediaFinal / notas.length;
 
 
-            String mediaFinalStr = String.format("%1f", mediaFinal);
+            String mediaFinalStr = String.format("%.1f", mediaFinal);
 
             if (mediaFinal < 4) {
                 labelSituacao.setText("Situação: Reprovado");
