@@ -125,8 +125,10 @@ public class MediaFinalApp extends Application {
             double mediaFinal = 0.0;
             int i = 0;
             while (i < notas.length){
-                mediaFinal = mediaFinal + notas[i];
-                i = i + 1;
+               // mediaFinal = mediaFinal + notas[i];
+                mediaFinal+= notas[i];
+                //i = i + 1;
+                i++;
 
 
             }
